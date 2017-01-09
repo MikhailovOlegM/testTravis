@@ -1,7 +1,18 @@
 package com.hillel.tasks;
 
-/**
- * Created by mikha on 09.01.2017.
- */
+import com.hillel.tastks.SumOfNumbers;
+import org.junit.Test;
+
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
+
 public class testSum {
+  @Test
+  public void testSum() {
+    SumOfNumbers sumOfNumbers = new SumOfNumbers();
+    int result = sumOfNumbers.getSum(100);
+
+    assertThat(result, is(5050));
+  }
+
 }

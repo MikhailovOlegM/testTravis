@@ -1,7 +1,13 @@
-package PACKAGE_NAME;
+package com.hillel.tastks;
 
-/**
- * Created by mikha on 09.01.2017.
- */
 public class SumOfNumbers {
+
+  public int getSum(int limit) {
+    int sum = 0;
+    for (int i = 1; i <= limit; i++) {
+      sum += i;
+    }
+    return sum;
+  }
+
 }
