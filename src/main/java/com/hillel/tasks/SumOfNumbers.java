@@ -1,4 +1,4 @@
-package com.hillel.tastks;
+package com.hillel.tasks;
 
 public class SumOfNumbers {
 

@@ -1,6 +1,5 @@
 package com.hillel.tasks;
 
-import com.hillel.tastks.SumOfNumbers;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
